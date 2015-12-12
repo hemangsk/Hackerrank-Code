@@ -17,8 +17,7 @@ int main() {
         cin>>x>>y>>a>>b;
         float m=(b-y)/(a-x);
         int j=y;
-        for(int i=x;i<a;i++){
-            if(j<b){
+        while(x<=a && y<=b)
               cout<<"\nIn loop";
               cout<<"\nx +m = "<<x+m;
             if(x+m - (int)(x+m)==0 && y+m - (int)(y+m)==0){

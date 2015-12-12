@@ -13,6 +13,7 @@ int main() {
     while(t>0){
         t--;
         cin>>a>>b>>x>>y;
+        
         if((x==a||x==(a-b)||x==(a+b) )&&(y==b||y==(a-b)||y==(a+b))){
 
                 if(x==(a+b)&&y==b){
